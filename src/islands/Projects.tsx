@@ -71,10 +71,12 @@ export default function Projects() {
     <div>
       {
         projects.map((project: iProject, i: number) => (
-          <p class="mt-12 mb-6 mx-auto text-[#fbf6f1] text-sm underline underline hover:cursor-pointer" onClick={() => expandProject(i)}>
-            <span>⟣</span> {project.title} - <span class="text-[#f89f94]">{project.description}</span>
+          <div class="my-2">
+            <p class=" mx-auto text-[#fbf6f1] text-sm underline underline hover:cursor-pointer" onClick={() => expandProject(i)}>
+              <span>⟣</span> {project.title} - <span class="text-[#f89f94]">{project.description}</span>
+            </p>
             < Links links={project.links} expanded={expanded[i]}/>
-          </p>
+          </div>
         ))
       }
     </div>
