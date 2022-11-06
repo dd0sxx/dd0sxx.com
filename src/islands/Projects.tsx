@@ -210,8 +210,7 @@ export default function Projects() {
       <h3 class="text-[#01ccff] text-l mt-8">
         NFT Projects{" "}
         <span class="text-xs">
-          (These projects do not belong to me, I was simply hired as the
-          developer)
+          (Contracted as lead developer on these collections)
         </span>
       </h3>
       {nftProjects.map((project: iProject, i: number) => (
