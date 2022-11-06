@@ -31,7 +31,7 @@ const projects: iProject[] = [
     ],
   },
   {
-    "title": "Dive Into Solidity Smart Contract Development Udemy Course",
+    "title": "Dive Into Solidity Udemy Course",
     "description":
       "The #1 highest rated free Solidity course on Udemy (as of November 2022)",
     "image": "../static/udemy.png.png",
