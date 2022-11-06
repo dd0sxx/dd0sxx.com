@@ -3,7 +3,7 @@ import Projects from "../islands/Projects.tsx";
 
 export default function Home() {
   return (
-    <div class="bg-[#343b4e] h-full w-full m-auto" >
+    <div class="bg-[#343b4e] h-full w-full m-auto">
       <Head>
         <title>dd0sxx</title>
       </Head>
@@ -15,7 +15,14 @@ export default function Home() {
           Full Stack & Smart Contract Developer
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
-         Currently open to new projects ^_^ Previous Core Contributor @ <a class="underline text-[#bbbafb]" href="https://0xmacro.com/">0xMacro</a> & <a class="underline text-[#bbbafb]" href="https://uniwhales.io/">Uniwhales</a>
+          Currently open to new projects ^_^ Previous Core Contributor @{" "}
+          <a class="underline text-[#bbbafb]" href="https://0xmacro.com/">
+            0xMacro
+          </a>{" "}
+          &{" "}
+          <a class="underline text-[#bbbafb]" href="https://uniwhales.io/">
+            Uniwhales
+          </a>
         </p>
         <img
           src="/rei.png"
@@ -24,8 +31,12 @@ export default function Home() {
         />
         <Projects />
         <div class="mt-16 mb-8 flex flex-col m-auto text-center">
-          <a class="underline text-[#bbbafb]" href="https://twitter.com/dd0sxx">twitter</a>
-          <a class="underline text-[#bbbafb]" href="https://github.com/dd0sxx">github</a>
+          <a class="underline text-[#bbbafb]" href="https://twitter.com/dd0sxx">
+            twitter
+          </a>
+          <a class="underline text-[#bbbafb]" href="https://github.com/dd0sxx">
+            github
+          </a>
         </div>
       </div>
     </div>
