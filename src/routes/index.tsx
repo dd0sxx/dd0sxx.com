@@ -3,7 +3,7 @@ import Projects from "../islands/Projects.tsx";
 
 export default function Home() {
   return (
-    <div class="bg-gradient-to-b from-[#4e6e9c] to-[#353040] h-full w-full m-auto" >
+    <div class="bg-[#343b4e] h-full w-full m-auto" >
       <Head>
         <title>dd0sxx</title>
       </Head>
