@@ -16,11 +16,11 @@ export default function Home() {
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
           Currently open to new projects ^_^ Previous Core Contributor @{" "}
-          <a class="underline text-[#bbbafb]" href="https://0xmacro.com/">
+          <a class="underline text-[#bbbafb]" href="https://0xmacro.com/" target="_blank">
             0xMacro
           </a>{" "}
           &{" "}
-          <a class="underline text-[#bbbafb]" href="https://uniwhales.io/">
+          <a class="underline text-[#bbbafb]" href="https://uniwhales.io/" target="_blank">
             Uniwhales
           </a>
         </p>
