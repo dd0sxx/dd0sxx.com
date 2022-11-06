@@ -15,19 +15,14 @@ export default function Home() {
           Full Stack & Smart Contract Developer
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] ">
-          Previous Core Contributor @ <a class="underline decoration-indigo-400" href="https://0xmacro.com/">0xMacro</a> & <a class="underline decoration-[]" href="https://uniwhales.io/">Uniwhales</a>
+          Previous Core Contributor @ <a class="underline decoration-green" href="https://0xmacro.com/">0xMacro</a> & <a class="underline decoration-[]" href="https://uniwhales.io/">Uniwhales</a>
         </p>
         <img
           src="/rei.png"
           class="w-48 h-48 mx-auto"
           alt="the fresh logo: a sliced lemon dripping with juice"
         />
-        <p class="mt-12 mb-6 mx-auto text-[#fbf6f1] text-sm">
-          <a class="underline decoration-[]" href="">
-            Alumni Soulbound Tokens - <span class="text-[#f89f94]">SBTs for Macro Engineering Fellowship Alum for on-chain proof of education</span>
-          </a>
-        </p>
-        {/* <Counter start={3} /> */}
+        <Counter start={3} />
       </div>
     </div>
   );
