@@ -65,7 +65,7 @@ const nftProjects: iProject[] = [
   {
     "title": "Oily Pebbles",
     "description":
-      "Collaboration with Logan Larkin and Local Machine consiting of 2,000 unique GAN generation pebbles",
+      "Collaboration with Logan Larkin and Local Machine consiting of 2,000 GAN generated pebbles",
     "image": "../static/curated.png",
     "links": [
       {
@@ -86,7 +86,7 @@ const nftProjects: iProject[] = [
   {
     "title": "Oilys V2",
     "description":
-      "Collaboration with Logan Larkin — a whitelisted collection based on holders of the original Oilys Skull collection",
+      "A follow-up collection to Logan Larkin's original Oilys Skulls",
     "image": "../static/oilys2.png",
     "links": [
       {
@@ -105,9 +105,9 @@ const nftProjects: iProject[] = [
     ],
   },
   {
-    "title": "Wrist Aficionado Watch Club",
+    "title": "Wrist Aficionado",
     "description":
-      "Developed frontend mint page and smart contract for Wrist Aficionado’s digital watch collection",
+      "Developed frontend and smart contract for Wrist Aficionado’s digital watch collection",
     "image": "../static/oilys2.png",
     "links": [
       {
