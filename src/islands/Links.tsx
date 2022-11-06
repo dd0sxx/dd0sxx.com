@@ -3,7 +3,7 @@ export default function Links({ links, expanded }) {
     <div>
       {expanded
         ? links.map((link, j) => (
-          <div class="ml-6">
+          <div class="ml-6 mb-0 sm:mb-1">
             <a
               href={links[j].href}
               target="_blank"

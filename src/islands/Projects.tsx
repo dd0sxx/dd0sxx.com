@@ -196,9 +196,9 @@ export default function Projects() {
     <div class="mt-8">
       <h2 class="text-[#01ccff] text-l">Projects</h2>
       {projects.map((project: iProject, i: number) => (
-        <div class="my-2">
+        <div class="my-6 lg:my-4">
           <p
-            class=" mx-auto text-[#fbf6f1] text-sm underline underline hover:cursor-pointer"
+            class=" mx-auto text-[#fbf6f1] text-sm underline underline-offset-4 hover:cursor-pointer"
             onClick={() => expandProject(i)}
           >
             <span>⟣</span> {project.title} -{" "}
@@ -214,9 +214,9 @@ export default function Projects() {
         </span>
       </h3>
       {nftProjects.map((project: iProject, i: number) => (
-        <div class="my-2">
+        <div class="my-6 lg:my-4">
           <p
-            class=" mx-auto text-[#fbf6f1] text-sm underline underline hover:cursor-pointer"
+            class=" mx-auto text-[#fbf6f1] text-sm underline hover:cursor-pointer"
             onClick={() => expandNftProject(i)}
           >
             <span>⟣</span> {project.title} -{" "}
