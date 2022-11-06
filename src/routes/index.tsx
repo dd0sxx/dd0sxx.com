@@ -3,11 +3,11 @@ import Projects from "../islands/Projects.tsx";
 
 export default function Home() {
   return (
-    <div class="bg-gradient-to-b from-[#4e6e9c] to-[#353040] h-full h-full" >
+    <div class="bg-gradient-to-b from-[#4e6e9c] to-[#353040] h-full w-full m-auto" >
       <Head>
         <title>dd0sxx</title>
       </Head>
-      <div class="p-4 mx-auto max-w-screen-md min-h-screen">
+      <div class="p-4 mx-auto max-w-screen-md min-h-screen h-full w-full">
         <h1 class="my-2 mx-auto text-center text-[#01ccff] font-bold text-xl">
           dd0sxx
         </h1>
@@ -23,7 +23,7 @@ export default function Home() {
           alt="the fresh logo: a sliced lemon dripping with juice"
         />
         <Projects />
-        <div class="mt-16 flex flex-col m-auto text-center">
+        <div class="mt-16 mb-8 flex flex-col m-auto text-center">
           <a class="underline text-[#bbbafb]" href="https://twitter.com/dd0sxx">twitter</a>
           <a class="underline text-[#bbbafb]" href="https://github.com/dd0sxx">github</a>
         </div>
