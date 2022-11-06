@@ -15,46 +15,97 @@ interface iProject {
 
 const projects: iProject[] = [
   {
+    "title": "Gas Numbers Every Solidity Dev Should Know",
+    "description": "A re-imagination of Norvig’s “Latency Numbers” for the EVM",
+    "image": "./gas-nums.png.png",
+    "links": [
+      {
+        "name": "View site",
+        "href": "https://0xmacro.com/library/gas-nums"
+      },
+      {
+        "name": "Github repository",
+        "href": "https://github.com/0xMacro/gas-numbers-every-solidity-dev-should-know"
+      }
+    ]
+  },
+  {
+    "title": "Dive Into Solidity Smart Contract Development Udemy Course",
+    "description": "The #1 highest rated free Solidity course on Udemy (as of November 2022)",
+    "image": "./udemy.png.png",
+    "links": [
+      {
+        "name": "View course",
+        "href": "https://www.udemy.com/course/dive-into-solidity-smart-contract-development/"
+      },
+      {
+        "name": "Github repository",
+        "href": "https://github.com/dd0sxx/dive-into-solidity-udemy-course-lesson-code"
+      }
+    ]
+  },
+  {
       "title": "Alumni Soulbound Tokens",
       "description": "SBTs for Macro Engineering Fellowship Alum for on-chain proof of education",
       "image": "./sbt-art-1.png",
       "links": [
           {
-              "name": "github repository",
+              "name": "Github repository",
               "href": "https://github.com/dd0sxx/soulbound-macro-nfts"
           }
       ]
   },
+]
+const nftProjects: iProject[] = [
   {
-      "title": "Dive Into Solidity Smart Contract Development Udemy Course",
-      "description": "The #1 highest rated free Solidity course on Udemy (as of November 2022)",
-      "image": "./udemy.png.png",
+    "title": "Oily Pebbles",
+    "description": "Collaboration with Logan Larkin and Local Machine consiting of 2,000 unique GAN generation pebbles",
+    "image": "./gas-nums.png.png",
+    "links": [
+      {
+        "name": "View site",
+        "href": "https://0xmacro.com/library/gas-nums"
+      },
+      {
+        "name": "Github repository",
+        "href": "https://github.com/0xMacro/gas-numbers-every-solidity-dev-should-know"
+      }
+    ]
+  },
+  {
+    "title": "Dive Into Solidity Smart Contract Development Udemy Course",
+    "description": "The #1 highest rated free Solidity course on Udemy (as of November 2022)",
+    "image": "./udemy.png.png",
+    "links": [
+      {
+        "name": "View course",
+        "href": "https://www.udemy.com/course/dive-into-solidity-smart-contract-development/"
+      },
+      {
+        "name": "Github repository",
+        "href": "https://github.com/dd0sxx/dive-into-solidity-udemy-course-lesson-code"
+      }
+    ]
+  },
+  {
+      "title": "Alumni Soulbound Tokens",
+      "description": "SBTs for Macro Engineering Fellowship Alum for on-chain proof of education",
+      "image": "./sbt-art-1.png",
       "links": [
           {
-              "name": "link to course",
-              "href": "https://www.udemy.com/course/dive-into-solidity-smart-contract-development/"
+              "name": "Github repository",
+              "href": "https://github.com/dd0sxx/soulbound-macro-nfts"
           }
       ]
   },
-  {
-      "title": "Gas Numbers Every Solidity Dev Should Know",
-      "description": "A re-imagination of Norvig’s “Latency Numbers” for the EVM",
-      "image": "./gas-nums.png.png",
-      "links": [
-          {
-              "name": "link to site",
-              "href": "https://0xmacro.com/library/gas-nums"
-          }
-      ]
-  }
 ]
 
 export default function Projects() {
-
+  
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
-    let initExpanded: bool[] = []
+    let initExpanded: boolean[] = []
     projects.forEach(() => {
       initExpanded.push(false)
     })
@@ -68,12 +119,23 @@ export default function Projects() {
   }
 
   return (
-    <div>
+    <div class="mt-8">
+      <h2 class="text-[#01ccff] text-l">Projects</h2>
       {
         projects.map((project: iProject, i: number) => (
           <div class="my-2">
             <p class=" mx-auto text-[#fbf6f1] text-sm underline underline hover:cursor-pointer" onClick={() => expandProject(i)}>
-              <span>⟣</span> {project.title} - <span class="text-[#f89f94]">{project.description}</span>
+              <span>⟣</span> {project.title} - <span class="text-[#0051ff]">{project.description}</span>
+            </p>
+            < Links links={project.links} expanded={expanded[i]}/>
+          </div>
+        ))
+      }
+            {
+        nftProjects.map((project: iProject, i: number) => (
+          <div class="my-2">
+            <p class=" mx-auto text-[#fbf6f1] text-sm underline underline hover:cursor-pointer" onClick={() => expandProject(i)}>
+              <span>⟣</span> {project.title} - <span class="text-[#0051ff]">{project.description}</span>
             </p>
             < Links links={project.links} expanded={expanded[i]}/>
           </div>
@@ -82,19 +144,3 @@ export default function Projects() {
     </div>
   )
 }
-        
-       // {projects.map((project: iProject, i: number) => {
-        //   <p class="mt-12 mb-6 mx-auto text-[#fbf6f1] text-sm underline underline hover:cursor-pointer" onClick={() => expandProject(i)}>
-        //     <span>⟣</span> {project.title} - <span class="text-[#f89f94]">{project.description}</span></p>
-        //     {expanded[i] ? 
-        //       {project.links.map((link, j) => (
-          //         <div class="ml-6">
-          //         <a href={project.links[j].href}>
-          //         ⥲ <span class="text-[#f89f94] text-s">{project.links[j].name}</span>
-          //         </a>
-          //         </div>
-          //       ))}
-          //     :
-          //     <></>
-          //   }
-          // }
