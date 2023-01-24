@@ -15,7 +15,11 @@ export default function Home() {
           Full Stack & Smart Contract Developer
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
-          Currently open to new projects ^_^ Previous Core Contributor @{" "}
+          Smart Contract Engineer @{" "}
+          <a class="underline text-[#bbbafb]" href="https://llama.xyz/" target="_blank">
+            Llama
+          </a>{" "}
+          ^_^ Previous Core Contributor @{" "}
           <a class="underline text-[#bbbafb]" href="https://0xmacro.com/" target="_blank">
             0xMacro
           </a>{" "}
