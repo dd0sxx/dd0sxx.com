@@ -15,6 +15,22 @@ interface iProject {
 
 const projects: iProject[] = [
   {
+    "title": "Llama Governance Framework",
+    "description": "A bleeding edge access control system for onchain organizations",
+    "image": "../static/llama.png",
+    "links": [
+      {
+        "name": "View site",
+        "href": "https://llama.xyz/",
+      },
+      {
+        "name": "Github repository (coming soon)",
+        "href":
+          "https://github.com/Llama/llama",
+      },
+    ],
+  },
+  {
     "title": "Gas Numbers Every Solidity Dev Should Know",
     "description": "A re-imagination of Norvig’s “Latency Numbers” for the EVM",
     "image": "../static/gas-nums.png.png",
@@ -33,7 +49,7 @@ const projects: iProject[] = [
   {
     "title": "Dive Into Solidity Udemy Course",
     "description":
-      "The #1 highest rated free Solidity course on Udemy (as of November 2022)",
+      "The #1 highest rated free Solidity course on Udemy (as of June 2023)",
     "image": "../static/udemy.png.png",
     "links": [
       {
@@ -65,7 +81,7 @@ const nftProjects: iProject[] = [
   {
     "title": "Oily Pebbles",
     "description":
-      "Collaboration with Logan Larkin and Local Machine consiting of 2,000 GAN generated pebbles",
+      "Collaboration with Logan Larkin and Local Machine consisting of 2,000 GAN generated pebbles",
     "image": "../static/curated.png",
     "links": [
       {
@@ -101,22 +117,6 @@ const nftProjects: iProject[] = [
         "name": "Etherscan",
         "href":
           "https://etherscan.io/address/0x49623caec21b1ff5d04d7bf7b71531369a69bce4",
-      },
-    ],
-  },
-  {
-    "title": "Wrist Aficionado",
-    "description":
-      "Developed frontend and smart contract for Wrist Aficionado’s digital watch collection",
-    "image": "../static/oilys2.png",
-    "links": [
-      {
-        "name": "Github Repository",
-        "href": "https://github.com/Shipyard-Studio/wristables",
-      },
-      {
-        "name": "Opensea",
-        "href": "https://opensea.io/collection/wawc",
       },
     ],
   },
