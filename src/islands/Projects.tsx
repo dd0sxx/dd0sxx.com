@@ -15,6 +15,23 @@ interface iProject {
 
 const projects: iProject[] = [
   {
+    "title": "Llama Token Voting Module",
+    "description": "A smart contract module to enable token voting for Llama instances",
+    "image": "../static/llama.png",
+    "links": [
+      {
+        "name": "Github Repository",
+        "href":
+          "https://github.com/llamaxyz/llama-periphery",
+      },
+      {
+        "name": "Audit Report",
+        "href":
+          "https://github.com/llamaxyz/llama/blob/main/audits/Llama-Token-Governor-Spearbit-Audit.pdf",
+      },
+    ],
+  },
+  {
     "title": "Llama Governance Framework",
     "description": "A bleeding edge access control system for onchain organizations",
     "image": "../static/llama.png",
@@ -24,9 +41,29 @@ const projects: iProject[] = [
         "href": "https://llama.xyz/",
       },
       {
-        "name": "Github repository (coming soon)",
+        "name": "Github Repository",
         "href":
-          "https://github.com/Llama/llama",
+          "https://github.com/llamaxyz/llama",
+      },
+      {
+        "name": "Spearbit Audit 1 (June 2023)",
+        "href":
+          "https://github.com/llamaxyz/llama/blob/main/audits/Llama-Spearbit-Audit-3.pdf",
+      },
+      {
+        "name": "Code4rena Audit",
+        "href":
+          "https://github.com/llamaxyz/llama/blob/main/audits/Llama-Code4rena-Audit.md",
+      },
+      {
+        "name": "Spearbit Audit 2 (August 2023)",
+        "href":
+          "https://github.com/llamaxyz/llama/blob/main/audits/Llama-Spearbit-Audit-2.pdf",
+      },
+      {
+        "name": "Llama v1.1.0 Spearbit Audit (January 2024)",
+        "href":
+          "https://github.com/llamaxyz/llama/blob/main/audits/Llama-Spearbit-Audit-3.pdf",
       },
     ],
   },
@@ -40,7 +77,7 @@ const projects: iProject[] = [
         "href": "https://0xmacro.com/library/gas-nums",
       },
       {
-        "name": "Github repository",
+        "name": "Github Repository",
         "href":
           "https://github.com/0xMacro/gas-numbers-every-solidity-dev-should-know",
       },
@@ -58,7 +95,7 @@ const projects: iProject[] = [
           "https://www.udemy.com/course/dive-into-solidity-smart-contract-development/",
       },
       {
-        "name": "Github repository",
+        "name": "Github Repository",
         "href":
           "https://github.com/dd0sxx/dive-into-solidity-udemy-course-lesson-code",
       },
@@ -71,7 +108,7 @@ const projects: iProject[] = [
     "image": "../static/sbt-art-1.png",
     "links": [
       {
-        "name": "Github repository",
+        "name": "Github Repository",
         "href": "https://github.com/dd0sxx/soulbound-macro-nfts",
       },
     ],

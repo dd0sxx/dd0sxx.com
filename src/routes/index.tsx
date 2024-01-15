@@ -12,17 +12,16 @@ export default function Home() {
           dd0sxx
         </h1>
         <p class="mt-4 mx-auto text-center text-[#01ccff] ">
-          Full Stack & Smart Contract Developer
+          Smart Contract & Full Stack Developer
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
-          Smart Contract Engineer @{" "}
+          Currently taking on new projects ^_^ Previous Core Contributor @{" "}
           <a class="underline text-[#bbbafb]" href="https://llama.xyz/" target="_blank">
             Llama
-          </a>{" "}
-          ^_^ Previous Core Contributor @{" "}
+          </a>{", "}
           <a class="underline text-[#bbbafb]" href="https://0xmacro.com/" target="_blank">
             0xMacro
-          </a>{" "}
+          </a>{", "}
           &{" "}
           <a class="underline text-[#bbbafb]" href="https://uniwhales.io/" target="_blank">
             Uniwhales
