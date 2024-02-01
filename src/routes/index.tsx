@@ -12,7 +12,7 @@ export default function Home() {
           dd0sxx
         </h1>
         <p class="mt-4 mx-auto text-center text-[#01ccff] ">
-          Smart Contract & Full Stack Developer
+          Smart Contract Dev/Auditor & Full Stack Dev
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
           Currently taking on new projects ^_^ Previous Core Contributor @{" "}
