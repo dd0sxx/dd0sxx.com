@@ -19,13 +19,21 @@ export default function Home() {
           <a class="underline text-[#bbbafb]" href="https://synthetix.io/">
             Synthetix
           </a>{" "}
-          Previous Core Contributor @{" "}
+          Previous Contributor @{" "}
           <a
             class="underline text-[#bbbafb]"
             href="https://llama.xyz/"
             target="_blank"
           >
             Llama
+          </a>
+          {", "}
+          <a
+            class="underline text-[#bbbafb]"
+            href="https://twitter.com/Token_Logic"
+            target="_blank"
+          >
+            Aave (via TokenLogic)
           </a>
           {", "}
           <a
