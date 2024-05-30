@@ -15,10 +15,27 @@ interface iProject {
 
 const projects: iProject[] = [
   {
-    title: "Synthetix Governance V3",
-    description: "Coming soon...",
+    title: "Synthetix V3 Governance",
+    description: "Currently working on updating SNX governance",
     image: "../static/snx.png",
-    links: [],
+    links: [
+      {
+        name: "Github Repository",
+        href: "https://github.com/Synthetixio/synthetix-v3/tree/gov-3.0.0",
+      },
+    ],
+  },
+  {
+    title: "Aave Governance",
+    description:
+      "Implemented and Executed on Aave Governance Proposals via TokenLogic",
+    image: "../static/aave.png",
+    links: [
+      {
+        name: "Github Repository",
+        href: "https://github.com/bgd-labs/aave-proposals-v3",
+      },
+    ],
   },
   {
     title: "Llama Token Voting Module",
