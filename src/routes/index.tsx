@@ -15,15 +15,30 @@ export default function Home() {
           Smart Contract Dev/Auditor & Full Stack Dev
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
-          Currently taking on new projects ^_^ Previous Core Contributor @{" "}
-          <a class="underline text-[#bbbafb]" href="https://llama.xyz/" target="_blank">
+          Currently a Core Contributor at{" "}
+          <a href="https://synthetix.io/">Synthetix</a> Previous Core
+          Contributor @{" "}
+          <a
+            class="underline text-[#bbbafb]"
+            href="https://llama.xyz/"
+            target="_blank"
+          >
             Llama
-          </a>{", "}
-          <a class="underline text-[#bbbafb]" href="https://0xmacro.com/" target="_blank">
+          </a>
+          {", "}
+          <a
+            class="underline text-[#bbbafb]"
+            href="https://0xmacro.com/"
+            target="_blank"
+          >
             0xMacro
-          </a>{", "}
-          &{" "}
-          <a class="underline text-[#bbbafb]" href="https://uniwhales.io/" target="_blank">
+          </a>
+          {", "}&{" "}
+          <a
+            class="underline text-[#bbbafb]"
+            href="https://uniwhales.io/"
+            target="_blank"
+          >
             Uniwhales
           </a>
         </p>
