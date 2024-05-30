@@ -16,8 +16,10 @@ export default function Home() {
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
           Currently a Core Contributor at{" "}
-          <a href="https://synthetix.io/">Synthetix</a> Previous Core
-          Contributor @{" "}
+          <a class="underline text-[#bbbafb]" href="https://synthetix.io/">
+            Synthetix
+          </a>{" "}
+          Previous Core Contributor @{" "}
           <a
             class="underline text-[#bbbafb]"
             href="https://llama.xyz/"
