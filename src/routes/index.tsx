@@ -18,7 +18,8 @@ export default function Home() {
           Currently a Core Contributor at{" "}
           <a class="underline text-[#bbbafb]" href="https://synthetix.io/">
             Synthetix
-          </a>{" "}
+          </a>
+          {", "}
           Previous Contributor @{" "}
           <a
             class="underline text-[#bbbafb]"
