@@ -14,14 +14,25 @@ interface iProject {
 }
 
 const projects: iProject[] = [
+    {
+    title: "Synthetix V4",
+    description: "Contributed towards the CLOB and smart contract architecture of Synthetix V4",
+    image: "../static/snx.png",
+    links: [
+      {
+        name: "Github Repository Private :(",
+        href: "https://github.com/moss-eth",
+      },
+    ],
+  },
   {
-    title: "Synthetix V3 Governance",
-    description: "Currently working on updating SNX governance",
+    title: "Synthetix V3 Cross Chain Governance",
+    description: "Implemented cross chain governance voting that settled on Snaxchain using Wormhole",
     image: "../static/snx.png",
     links: [
       {
         name: "Github Repository",
-        href: "https://github.com/Synthetixio/synthetix-v3/tree/gov-3.0.0",
+        href: "https://github.com/Synthetixio/synthetix-v3/tree/main/protocol/governance",
       },
     ],
   },
@@ -103,7 +114,7 @@ const projects: iProject[] = [
   {
     title: "Dive Into Solidity Udemy Course",
     description:
-      "The #1 highest rated free Solidity course on Udemy (as of June 2023)",
+      "The #1 highest rated free Solidity course on Udemy",
     image: "../static/udemy.png.png",
     links: [
       {
