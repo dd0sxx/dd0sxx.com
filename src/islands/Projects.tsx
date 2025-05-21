@@ -16,7 +16,7 @@ interface iProject {
 const projects: iProject[] = [
     {
     title: "Synthetix V4",
-    description: "Contributed towards the CLOB and smart contract architecture of Synthetix V4",
+    description: "Contributed towards an offchain CLOB written in LUA and smart contract architecture of Synthetix V4",
     image: "../static/snx.png",
     links: [
       {
@@ -26,8 +26,19 @@ const projects: iProject[] = [
     ],
   },
   {
+    title: "Zap",
+    description: "Enabled 'zapping' Synthetix native collateral unwinding by integrating flash loans from Aave and Odos swaps",
+    image: "../static/snx.png",
+    links: [
+      {
+        name: "Github Repository",
+        href: "https://github.com/JaredBorders/zap",
+      },
+    ],
+  },
+  {
     title: "Synthetix V3 Cross Chain Governance",
-    description: "Implemented cross chain governance voting that settled on Snaxchain using Wormhole",
+    description: "Implemented cross chain governance voting that settled on Snaxchain",
     image: "../static/snx.png",
     links: [
       {
