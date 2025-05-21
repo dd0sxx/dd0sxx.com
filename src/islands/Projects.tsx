@@ -16,7 +16,7 @@ interface iProject {
 const projects: iProject[] = [
     {
     title: "Synthetix V4",
-    description: "Contributed towards an offchain CLOB written in LUA and smart contract architecture of Synthetix V4",
+    description: "Contributed towards v4 offchain CLOB (LUA / redis) and the smart contract framework",
     image: "../static/snx.png",
     links: [
       {
@@ -27,7 +27,7 @@ const projects: iProject[] = [
   },
   {
     title: "Zap",
-    description: "Enabled 'zapping' Synthetix native collateral unwinding by integrating flash loans from Aave and Odos swaps",
+    description: "Enabled 'zapping' Synthetix native collateral unwinding by integrating Aave flash loans & Odos swaps",
     image: "../static/snx.png",
     links: [
       {
