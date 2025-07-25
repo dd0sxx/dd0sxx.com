@@ -15,10 +15,10 @@ export default function Home() {
           Smart Contract Dev/Auditor & Full Stack Dev
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
-          Currently a Hacking on a new passion project!{" "}
-          {/* <a class="underline text-[#bbbafb]" href="https://synthetix.io/">
-            Synthetix
-          </a> */}
+          Currently Founder / Marshall @{" "}
+          <a class="underline text-[#bbbafb]" href="https://x.com/joustlabs_/">
+            Joust
+          </a>
           {", "}
           Previous Contributor @{" "}
           <a
