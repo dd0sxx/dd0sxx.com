@@ -14,13 +14,24 @@ export default function Home() {
         <p class="mt-4 mx-auto text-center text-[#01ccff] ">
           Smart Contract Dev/Auditor & Full Stack Dev
         </p>
+        <p class="mt-1 mx-auto text-center text-[#01ccff] text-xs">
+          [ NYC / Remote ]
+        </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
           Currently Founder / Marshall @{" "}
-          <a class="underline text-[#bbbafb]" href="https://x.com/joustlabs_/">
+          <a class="underline text-[#bbbafb]" href="https://www.joustonline.com/">
             Joust
           </a>
           {", "}
           Previous Contributor @{" "}
+          <a
+            class="underline text-[#bbbafb]"
+            href="https://www.sapience.xyz/"
+            target="_blank"
+          >
+            Sapience
+          </a>
+          {", "}
           <a
             class="underline text-[#bbbafb]"
             href="https://synthetix.io/"
@@ -55,10 +66,10 @@ export default function Home() {
           {", "}&{" "}
           <a
             class="underline text-[#bbbafb]"
-            href="https://uniwhales.io/"
+            href="https://app.cielo.finance/"
             target="_blank"
           >
-            Uniwhales
+            Cielo
           </a>
         </p>
         <img

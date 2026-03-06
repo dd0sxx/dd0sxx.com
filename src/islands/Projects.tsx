@@ -14,9 +14,50 @@ interface iProject {
 }
 
 const projects: iProject[] = [
+  {
+    title: "Joust",
+    description: "Permissionless peri-mutuel prediction markets with ZK-private betting",
+    image: "",
+    links: [
+      {
+        name: "Website",
+        href: "https://www.joustonline.com/",
+      },
+    ],
+  },
+  {
+    title: "Aori",
+    description: "Cross-chain intent settlement contracts with Permit2 & UUPS, deployed across 10 EVM chains",
+    image: "",
+    links: [
+      {
+        name: "Website",
+        href: "https://www.aori.io/",
+      },
+      {
+        name: "Github Repository",
+        href: "https://github.com/aori-io/aori",
+      },
+    ],
+  },
+  {
+    title: "Sapience",
+    description: "Prediction market with orderbook trading & LayerZero + UMA oracle resolution",
+    image: "",
+    links: [
+      {
+        name: "Website",
+        href: "https://www.sapience.xyz/",
+      },
+      {
+        name: "Github Repository",
+        href: "https://github.com/sapiencexyz/sapience",
+      },
+    ],
+  },
     {
     title: "Synthetix V4",
-    description: "Contributed towards v4 offchain CLOB (LUA / redis) and the smart contract framework",
+    description: "Offchain CLOB (Lua/Redis), Binance-style trading API (Express/TS), and smart contract framework",
     image: "../static/snx.png",
     links: [
       {
