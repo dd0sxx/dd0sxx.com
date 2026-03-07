@@ -18,12 +18,8 @@ export default function Home() {
           [ NYC / Remote ]
         </p>
         <p class="mt-2 mb-6 mx-auto text-center text-[#01ccff] text-xs">
-          Currently Founder / Marshall @{" "}
-          <a class="underline text-[#bbbafb]" href="https://www.joustonline.com/">
-            Joust
-          </a>
-          {", "}
-          Previous Contributor @{" "}
+          Currently contracting, open to interesting opportunities.
+          {" "}Previous Contributor @{" "}
           <a
             class="underline text-[#bbbafb]"
             href="https://www.sapience.xyz/"
