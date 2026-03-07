@@ -22,14 +22,6 @@ export default function Home() {
           {" "}Previous Contributor @{" "}
           <a
             class="underline text-[#bbbafb]"
-            href="https://www.sapience.xyz/"
-            target="_blank"
-          >
-            Sapience
-          </a>
-          {", "}
-          <a
-            class="underline text-[#bbbafb]"
             href="https://synthetix.io/"
             target="_blank"
           >
